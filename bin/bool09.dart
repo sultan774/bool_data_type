@@ -6,5 +6,10 @@
     Returns:
         bool
     */
-
-void main() {}
+    bool func(int a) {
+      bool Args = a <= 10;
+        return Args;
+    }
+    void main() {
+        print(func(7));
+    }

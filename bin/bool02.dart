@@ -7,4 +7,13 @@
         bool
 */
 
-void main() {}
+
+bool func(int a) {
+  bool Args = a == 7;
+  return Args;
+
+}
+
+void main() {
+  print(func(5 % 2+1));
+}
